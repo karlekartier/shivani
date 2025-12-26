@@ -1,0 +1,24 @@
+{
+  "name": "shivani",
+  "version": "1.0.0",
+  "description": "[![Summer Sale 90% Off All Bootstrap Themes 🏖](https://themesberg.com/img/campaigns/summer-sale/thumbnail.png)](https://themesberg.com/summer-sale?ref=github)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i \"./src/input.css\" -o \"./html&css/shivani/assets/css/tailwind.css\"",
+    "watch:css": "tailwindcss -i \"./src/input.css\" -o \"./html&css/shivani/assets/css/tailwind.css\" --watch",
+    "start": "npx serve \"html&css/shivani\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  }
+}
