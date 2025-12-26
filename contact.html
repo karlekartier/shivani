@@ -4,8 +4,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- Primary Meta Tags -->
-    <title>Contact | A. Shivani - Medical Writer</title>
+    <title>Contact | A. Shivani - Medical Writer | Pharm.D</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Contact | A. Shivani - Medical Writer | Pharm.D">
+    <meta name="author" content="A. Shivani">
+    <meta name="description"
+        content="Get in touch with A. Shivani for medical writing, clinical research, and professional collaborations.">
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -13,120 +17,66 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/hero-animation.css">
 
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            transition: background-color 0.3s ease, color 0.3s ease;
-            padding-top: 72px;
-        }
-
-        .contact-header {
-            background: linear-gradient(135deg, #2563eb, #7c3aed);
-            padding: 80px 0;
-            color: white;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .contact-grid-overlay {
-            position: absolute;
-            inset: 0;
-            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-            background-size: 20px 20px;
-            opacity: 0.5;
-        }
-
-        .contact-form-card {
-            background: white;
-            border-radius: 1.5rem;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-            padding: 2.5rem;
-            margin-top: -60px;
-            position: relative;
-            z-index: 10;
-        }
-
-        [data-bs-theme="dark"] .contact-form-card {
-            background: #1f2937;
-            border: 1px solid #374151;
-        }
-
-        .form-control {
-            border-radius: 0.75rem;
-            padding: 0.75rem 1rem;
-            border: 1px solid #e5e7eb;
-            background-color: #f9fafb;
-        }
-
-        [data-bs-theme="dark"] .form-control {
-            background-color: #374151;
-            border-color: #4b5563;
-            color: white;
-        }
-
-        .form-control:focus {
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
-            border-color: #2563eb;
-        }
-
-        .contact-info-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .contact-info-icon {
-            width: 3rem;
-            height: 3rem;
-            background-color: #eff6ff;
-            color: #2563eb;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1.25rem;
-            font-size: 1.25rem;
-            flex-shrink: 0;
-        }
-
-        [data-bs-theme="dark"] .contact-info-icon {
-            background-color: #1e3a8a;
-            color: #60a5fa;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
 <body>
-    <header class="fixed top-0 w-full z-50 transition-all duration-300">
+    <header class="fixed top-0 w-full z-50 transition-all duration-300" id="home">
         <nav
             class="bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm border-b border-gray-100 dark:border-gray-800">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-20">
+                    <!-- Brand -->
                     <a class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-sky-400 dark:to-blue-600"
                         href="./index.html">
                         Shivani
                     </a>
 
+                    <!-- Desktop Links -->
                     <div class="hidden lg:flex lg:gap-x-8">
+                        <a href="./index.html"
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-home mr-2"></i>Home
+                        </a>
                         <a href="./index.html#about"
-                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-user-circle mr-2"></i>About
+                        </a>
                         <a href="./index.html#skills"
-                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Skills</a>
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-tools mr-2"></i>Skills
+                        </a>
+                        <a href="./index.html#education"
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-book-medical mr-2"></i>Education
+                        </a>
                         <a href="./index.html#projects"
-                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Projects</a>
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-flask mr-2"></i>Projects
+                        </a>
                         <a href="./index.html#experience"
-                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Experience</a>
+                            class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                            <i class="fas fa-briefcase mr-2"></i>Experience
+                        </a>
                     </div>
 
+                    <!-- Theme Toggle & Actions -->
                     <div class="flex items-center gap-6 lg:order-2">
+                        <!-- Theme Toggle -->
                         <div class="theme-switch-wrapper">
                             <input type="checkbox" id="theme-mode" class="sr-only">
                             <label for="theme-mode" class="theme-switch-pill">
@@ -136,6 +86,23 @@
                                 </div>
                             </label>
                         </div>
+
+                        <!-- Desktop CTA -->
+                        <a href="./contact.html"
+                            class="hidden lg:inline-flex items-center justify-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+                            <i class="bi bi-send me-2"></i> Get in Touch
+                        </a>
+
+                        <!-- Mobile Menu Button -->
+                        <button id="mobile-menu-btn" type="button"
+                            class="lg:hidden p-2 rounded-md text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none flex flex-col justify-center items-center h-10 w-10">
+                            <span class="sr-only">Open main menu</span>
+                            <div class="hamburger-inner">
+                                <span class="hamburger-bar"></span>
+                                <span class="hamburger-bar"></span>
+                                <span class="hamburger-bar"></span>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -143,128 +110,339 @@
     </header>
 
     <main>
-        <section class="contact-header">
-            <div class="contact-grid-overlay"></div>
-            <div class="container relative z-10">
-                <h1 class="text-4xl lg:text-5xl font-extrabold mb-4">Get In Touch</h1>
-                <p class="text-blue-100 text-lg max-w-2xl mx-auto">
-                    Have a project in mind or want to discuss medical writing? I'm always open to new collaborations and
-                    professional opportunities.
-                </p>
+        <!-- Get In Touch Section -->
+        <section class="contact-hero">
+            <div class="contact-hero-overlay"></div>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h1 class="text-4xl lg:text-5xl font-extrabold mb-6 dark:text-white">Get In Touch</h1>
+                        <p class="text-xl text-blue-100 leading-relaxed max-w-xl">
+                            Have a project in mind or want to discuss medical writing? I'm always open to new
+                            collaborations and professional opportunities.
+                        </p>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/img/storyset/contact/getintouch.svg" alt="Get In Touch"
+                            class="w-full max-w-md h-auto filter drop-shadow-2xl">
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="py-20 lg:py-24 bg-gray-50 dark:bg-gray-900">
+        <!-- Contact Info & Socials -->
+        <section class="py-20 lg:py-24 bg-section-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                    <!-- Contact Info -->
-                    <div class="lg:col-span-5">
-                        <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Contact Information</h2>
-
-                        <div class="contact-info-item">
-                            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 dark:text-white">Email Me</h4>
-                                <p class="text-gray-600 dark:text-gray-400">shivani@example.com</p>
-                            </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-32">
+                    <!-- Left: Contact Details -->
+                    <div class="mb-12 lg:mb-0">
+                        <div class="mb-12">
+                            <h2 class="section-title text-gray-900 dark:text-white font-bold mb-4">Contact Information
+                            </h2>
+                            <p class="text-gray-600 dark:text-gray-400">Reach out through any of these channels.</p>
                         </div>
 
-                        <div class="contact-info-item">
-                            <div class="contact-info-icon"><i class="fas fa-location-dot"></i></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 dark:text-white">Location</h4>
-                                <p class="text-gray-600 dark:text-gray-400">Chennai, Tamil Nadu, India</p>
-                            </div>
-                        </div>
-
-                        <div class="mt-12">
-                            <h4 class="font-bold mb-4 text-gray-900 dark:text-white">Follow My Work</h4>
-                            <div class="flex gap-4">
-                                <a href="#"
-                                    class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all">
-                                    <i class="bi bi-linkedin"></i>
-                                </a>
-                                <a href="#"
-                                    class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all">
-                                    <i class="bi bi-behance"></i>
-                                </a>
-                                <a href="#"
-                                    class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all">
-                                    <i class="bi bi-github"></i>
-                                </a>
+                        <div
+                            class="flex flex-col md:flex-row gap-8 items-center mb-12 bg-gray-50 dark:bg-gray-800 p-8 rounded-3xl border border-gray-100 dark:border-gray-700">
+                            <img src="./assets/img/storyset/contact/Messages.svg" alt="Messages" class="w-48 h-auto">
+                            <div class="space-y-6">
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-envelope text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Email Me</p>
+                                        <a href="mailto:shivani@example.com"
+                                            class="text-lg font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors">shivani@example.com</a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-location-dot text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Location</p>
+                                        <p class="text-lg font-bold text-gray-900 dark:text-white">Chennai, Tamil Nadu,
+                                            India</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Contact Form -->
-                    <div class="lg:col-span-7">
-                        <div class="contact-form-card">
-                            <form action="#" method="POST" class="space-y-6">
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label
-                                            class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Full
-                                            Name</label>
-                                        <input type="text" class="form-control w-full" placeholder="John Doe" required>
-                                    </div>
-                                    <div>
-                                        <label
-                                            class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email
-                                            Address</label>
-                                        <input type="email" class="form-control w-full" placeholder="john@example.com"
-                                            required>
-                                    </div>
-                                </div>
-                                <div>
-                                    <label
-                                        class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Subject</label>
-                                    <input type="text" class="form-control w-full" placeholder="Project Inquiry"
-                                        required>
-                                </div>
-                                <div>
-                                    <label
-                                        class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
-                                    <textarea rows="5" class="form-control w-full" placeholder="Your message here..."
-                                        required></textarea>
-                                </div>
-                                <button type="submit"
-                                    class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-lg transition-all transform hover:-translate-y-1">
-                                    Send Message <i class="bi bi-send ms-2"></i>
-                                </button>
-                            </form>
+                    <!-- Right: Follow My Work (Social Grid) -->
+                    <div>
+                        <div class="mb-10">
+                            <h2 class="section-title text-gray-900 dark:text-white font-bold">Follow My Work</h2>
+                            <p class="text-gray-600 dark:text-gray-400 mb-8">Stay connected across professional
+                                platforms.</p>
                         </div>
+                        <div class="social-grid">
+                            <!-- Behance -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/behance.svg" alt="Behance" class="social-icon-img">
+                                <span class="social-name">Behance</span>
+                            </a>
+                            <!-- Dribbble -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/dribbble.svg" alt="Dribbble" class="social-icon-img">
+                                <span class="social-name">Dribbble</span>
+                            </a>
+                            <!-- Facebook -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/facebook.svg" alt="Facebook" class="social-icon-img">
+                                <span class="social-name">Facebook</span>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/github.svg" alt="GitHub" class="social-icon-img">
+                                <span class="social-name">GitHub</span>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/instagram.svg" alt="Instagram" class="social-icon-img">
+                                <span class="social-name">Instagram</span>
+                            </a>
+                            <!-- LinkedIn -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/linkedin.svg" alt="LinkedIn" class="social-icon-img">
+                                <span class="social-name">LinkedIn</span>
+                            </a>
+                            <!-- Medium -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/medium.svg" alt="Medium" class="social-icon-img">
+                                <span class="social-name">Medium</span>
+                            </a>
+                            <!-- WhatsApp -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/whatsapp.svg" alt="WhatsApp" class="social-icon-img">
+                                <span class="social-name">WhatsApp</span>
+                            </a>
+                            <!-- X (Twitter) -->
+                            <a href="#" class="social-icon-box">
+                                <img src="./assets/img/icons/x.svg" alt="X" class="social-icon-img">
+                                <span class="social-name">X</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 lg:py-24 bg-section-light">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <!-- Left: FAQ Image -->
+                    <div class="flex justify-center">
+                        <img src="./assets/img/storyset/contact/FAQs.svg" alt="FAQs" class="w-full max-w-md h-auto">
+                    </div>
+
+                    <!-- Right: FAQ Accordion -->
+                    <div>
+                        <div class="mb-10">
+                            <h2 class="section-title text-gray-900 dark:text-white text-center lg:text-left font-bold">
+                                Common Questions</h2>
+                            <p class="text-gray-600 dark:text-gray-400 mb-8 text-center lg:text-left">Everything you
+                                need to know about starting a project.</p>
+                        </div>
+                        <div class="faq-accordion accordion" id="contactFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq1">
+                                        What medical writing services do you provide?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#contactFAQ">
+                                    <div class="accordion-body text-gray-600 dark:text-gray-400">
+                                        I specialize in clinical research documentation, scientific communication,
+                                        pharmacovigilance reports, and patient education materials.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2">
+                                        What is your typical turnaround time?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                                    <div class="accordion-body text-gray-600 dark:text-gray-400">
+                                        Turnaround times vary based on the complexity and volume of the project.
+                                        Typically, small assignments take 3-5 business days.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq3">
+                                        Do you collaborate on international projects?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                                    <div class="accordion-body text-gray-600 dark:text-gray-400">
+                                        Yes, I work with clients and organizations globally, adhering to international
+                                        medical ethics and regulatory standards.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq4">
+                                        How do we start a collaboration?
+                                    </button>
+                                </h2>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
+                                    <div class="accordion-body text-gray-600 dark:text-gray-400">
+                                        Simply fill out the contact form or send an email with your project
+                                        requirements, and I'll get back to you within 24 hours.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="py-20 lg:py-24 bg-section-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <!-- Left: Form Image -->
+                    <div class="flex justify-center">
+                        <img src="./assets/img/storyset/contact/form.svg" alt="Form Illustration"
+                            class="w-full max-w-md h-auto">
+                    </div>
+
+                    <!-- Right: Send Message Form -->
+                    <div class="contact-card p-8 lg:p-10">
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send a Message</h3>
+                        <form action="#" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="form-input-group">
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Full Name</label>
+                                    <input type="text" class="form-control-custom" placeholder="John Doe">
+                                </div>
+                                <div class="form-input-group">
+                                    <label class="block text-sm font-bold text-gray-700 mb-2">Email Address</label>
+                                    <input type="email" class="form-control-custom" placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div class="form-input-group">
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Subject</label>
+                                <input type="text" class="form-control-custom" placeholder="How can I help you?">
+                            </div>
+                            <div class="form-input-group">
+                                <label class="block text-sm font-bold text-gray-700 mb-2">Message</label>
+                                <textarea rows="4" class="form-control-custom"
+                                    placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full py-4 btn-premium font-extrabold rounded-xl text-lg">
+                                Send Message <i class="bi bi-send ms-2"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer-section">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="footer-grid">
+                <!-- Brand -->
                 <div class="footer-brand">
                     <h5 class="footer-brand-name">A. Shivani</h5>
-                    <p class="footer-brand-desc">Medical Writer | Pharm.D <br> Clinical Research Specialist</p>
+                    <p class="footer-brand-desc">
+                        Medical Writer | Pharm.D <br> Clinical Research Specialist
+                    </p>
+                    <div class="flex justify-center lg:justify-start space-x-4">
+                        <a href="#" class="text-linkedin transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-instagram transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-facebook transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-medium transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-medium"></i></a>
+                        <a href="#" class="text-behance transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-behance"></i></a>
+                        <a href="#" class="github-icon transition-colors text-xl footer-link-icon"><i
+                                class="bi bi-github"></i></a>
+                    </div>
                 </div>
-                <!-- Mini Quick Links -->
+
+                <!-- Quick Links -->
                 <div class="text-center lg:text-left">
                     <h6 class="footer-heading">Quick Links</h6>
                     <ul class="footer-links inline-block text-left lg:block">
                         <li><a href="./index.html" class="footer-link"><i class="fas fa-home"></i>Home</a></li>
-                        <li><a href="./index.html#about" class="footer-link"><i class="fas fa-user-circle"></i>About</a>
+                        <li><a href="./index.html#about" class="footer-link"><i class="fas fa-user-circle"></i>About
+                                Me</a></li>
+                        <li><a href="./index.html#skills" class="footer-link"><i class="fas fa-tools"></i>Skills &
+                                Expertise</a>
                         </li>
-                        <li><a href="./index.html#projects" class="footer-link"><i class="fas fa-flask"></i>Projects</a>
+                        <li><a href="./index.html#projects" class="footer-link"><i class="fas fa-flask"></i>Research
+                                Projects</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Expertise -->
+                <div class="text-center lg:text-left">
+                    <h6 class="footer-heading">Expertise</h6>
+                    <ul class="footer-links inline-block text-left lg:block">
+                        <li><span class="footer-link"><i class="fas fa-pen-fancy"></i>Scientific Writing</span></li>
+                        <li><span class="footer-link"><i class="fas fa-shield-alt"></i>Pharmacovigilance</span></li>
+                        <li><span class="footer-link"><i class="fas fa-database"></i>Clinical Data Mgmt</span></li>
+                        <li><span class="footer-link"><i class="fas fa-file-medical"></i>Regulatory Affairs</span></li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div class="text-center lg:text-left">
+                    <h6 class="footer-heading">Connect</h6>
+                    <ul class="footer-links inline-block text-left lg:block">
+                        <li>
+                            <a href="mailto:shivani@example.com" class="footer-link">
+                                <i class="fas fa-envelope"></i>Email Me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="footer-link">
+                                <i class="fas fa-comment-dots"></i>Contact Page
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p class="footer-copyright">&copy; 2024 A. Shivani. All rights reserved.</p>
+                <p class="footer-copyright">
+                    &copy; 2024 A. Shivani. All rights reserved.
+                </p>
             </div>
         </div>
     </footer>
 
-    <script src="./assets/js/main.js"></script>
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top"
+        class="fixed bottom-6 right-6 w-12 h-12 flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all z-50 transform translate-y-20 opacity-0">
+        <i class="bi bi-arrow-up text-xl"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/hero-animation.js"></script>
 </body>
 
 </html>

@@ -43,6 +43,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/hero-animation.css">
 
 
     <style>
@@ -228,8 +229,11 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="py-16 lg:py-24 relative overflow-hidden dark:bg-gray-900" id="home">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="relative overflow-hidden dark:bg-gray-900" id="home">
+            <div class="hero-canvas-container">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 hero-content-wrapper">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <!-- Text Content -->
                     <div class="order-2 lg:order-1">
@@ -866,7 +870,8 @@
     </a>
 
     <!-- Theme and Utilities JS -->
-    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/hero-animation.js"></script>
 </body>
 
 </html>

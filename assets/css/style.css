@@ -273,7 +273,8 @@ button {
 }
 
 #mobile-menu.menu-open {
-    max-height: 400px; /* Adjust as needed */
+    max-height: 400px;
+    /* Adjust as needed */
     opacity: 1;
     transform: translateY(0);
 }
@@ -425,6 +426,11 @@ button {
     font-size: 0.875rem;
     /* text-sm */
     transition: color 0.3s ease;
+}
+
+[data-bs-theme="dark"] .skill-description {
+    color: #d1d5db;
+    /* gray-300 */
 }
 
 
@@ -1086,6 +1092,17 @@ button {
     background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
     background-size: 20px 20px;
     opacity: 0.5;
+    animation: moveGrid 20s linear infinite;
+}
+
+@keyframes moveGrid {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100px 100px;
+    }
 }
 
 .cta-bg-svg {
