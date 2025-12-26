@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwindcss -i \"./src/input.css\" -o \"./html&css/shivani/assets/css/tailwind.css\"",
-    "watch:css": "tailwindcss -i \"./src/input.css\" -o \"./html&css/shivani/assets/css/tailwind.css\" --watch",
-    "start": "npx serve \"html&css/shivani\""
+    "build:css": "tailwindcss -i \"./src/input.css\" -o \"./assets/css/tailwind.css\"",
+    "watch:css": "tailwindcss -i \"./src/input.css\" -o \"./assets/css/tailwind.css\" --watch",
+    "start": "npx serve ./"
   },
   "keywords": [],
   "author": "",
