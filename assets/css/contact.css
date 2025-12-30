@@ -104,6 +104,12 @@ body {
     box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
 }
 
+[data-bs-theme="dark"] .social-icon-box:hover {
+    background: #1f2937;
+    border-color: #3b82f6;
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1);
+}
+
 .social-icon-img {
     width: 32px;
     height: 32px;
@@ -118,6 +124,17 @@ body {
 
 [data-bs-theme="dark"] .social-name {
     color: #9ca3af;
+}
+
+[data-bs-theme="dark"] .social-icon-box:hover .social-name {
+    color: #eff6ff !important;
+}
+
+/* Fix for dark icons in dark mode */
+[data-bs-theme="dark"] img[src*="github.svg"],
+[data-bs-theme="dark"] img[src*="x.svg"],
+[data-bs-theme="dark"] img[src*="medium.svg"] {
+    filter: invert(1) brightness(2);
 }
 
 /* Section Backgrounds */
